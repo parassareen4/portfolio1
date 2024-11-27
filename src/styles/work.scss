@@ -31,7 +31,17 @@
             width: 95%;
             margin: auto;
             background-color: $color4;
-            
+            display: flex;
+            padding: 2rem;
+            box-shadow: 0 0 20px 5px $color1;
+
+            >img{
+                width: 40%;
+                border-radius: 20px;
+                object-fit: cover;
+                
+            } 
+
         }
           
     }
