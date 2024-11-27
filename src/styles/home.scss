@@ -56,6 +56,34 @@
                         }
                     }
                 }
+
+                aside{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+                    position: relative;
+
+                }
+
+                article{
+                    margin: 2rem 0;
+                    width: 10rem;
+                    color: $color5;
+
+                    &::after{
+                        content: "";
+                        background-color: $color4;
+                        width: 100%;
+                        height: 5rem;
+                        position: absolute;
+                        z-index: -1;
+                        top: 20%;
+                        left: 20%;
+
+
+                    }
+
+                }
             }
 
         }
