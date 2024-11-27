@@ -16,7 +16,7 @@ function Work() {
                     showThumbs={false}
                     interval={2000}
                     autoPlay={true}
-                    infiniteLoop={true}
+                    infiniteLoop={true} 
                 >
 
                     {
