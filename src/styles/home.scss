@@ -41,4 +41,15 @@
         }
 
     }
+
+        >svg{
+            position: absolute;
+            font-size: 4rem;
+            color: $color5;
+            left: 50%;
+            bottom: 5%;
+            transform: translateX(-50%); 
+            animation: animateSvg 0.7s linear infinite alternate;
+        
+    }
 }
