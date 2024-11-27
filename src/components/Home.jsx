@@ -1,9 +1,18 @@
-import React from 'react'
-import {motion} from 'framer-motion'
+import React, { useRef } from 'react'
+import {animate, motion} from 'framer-motion'
 import  Typewriter  from 'typewriter-effect'
 import {BsArrowUpRight, BsChevronDown } from 'react-icons/bs'
 import me from '../assets/me2.png'
 const Home = () => {
+
+  const clientCount = useRef(null);
+
+  const animationClientsCount = ()=>{
+    animate(0,25,{
+      duration:1,
+      onUpdate:(v)=>clientCount.current.textContent=v.toFixed()
+    })
+  }
 
   const animation = {
     h1: {
@@ -48,7 +57,7 @@ const Home = () => {
        </div>
        <article>
         <p>
-          +<span>100</span>
+          +<motion.span whileInView={animationClientsCount} ref={clientCount}></motion.span>
         </p>
         <span>Clients Worldwide</span>
        </article>

@@ -13,6 +13,7 @@
                 border-top: 1px solid $color6_2;
                 height: 100%;
                 padding: 6rem ;
+                
                 >h1{
                     font-family: $text1;
                     font-size: 4rem;
@@ -61,7 +62,7 @@
                     display: flex;
                     justify-content: space-between;
                     width: 70%;
-                    position: relative;
+                    
 
                 }
 
@@ -69,6 +70,7 @@
                     margin: 2rem 0;
                     width: 10rem;
                     color: $color5;
+                    position: relative;
 
                     &::after{
                         content: "";
@@ -79,10 +81,20 @@
                         z-index: -1;
                         top: 20%;
                         left: 20%;
-
-
+                        border-radius: 50px;
                     }
+                    >p{
+                        font: 900 2rem $text1;
 
+                    } 
+                    >span{
+                        font: 500 0.9rem $text2;
+                    }
+                }
+
+                article[data-special]{
+                    width: 16rem;
+                    margin-left: 50px;
                 }
             }
 
