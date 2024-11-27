@@ -9,10 +9,13 @@
         &:first-of-type{
             padding-left:  $p;
             
+            
             >div{
                 border-top: 1px solid $color6_2;
                 height: 100%;
-                padding: 6rem ;
+                padding-top:6rem ;
+                
+                
                 
                 >h1{
                     font-family: $text1;
