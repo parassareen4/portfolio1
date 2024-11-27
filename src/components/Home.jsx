@@ -31,6 +31,7 @@ const Home = () => {
   return (
     <div id="home">
       <section>
+        <div>
         <motion.h1 {...animation.h1}> 
         Hi, I'm <br></br>Paras Sareen 
        </motion.h1>
@@ -39,6 +40,7 @@ const Home = () => {
         autoStart: true,
         loop: true,
         wrapperClassName: "typewriterpara",
+        cursor: ""
        }}></Typewriter>
        <div>
         <a href='mailto:kyakrnahaibro@gmail.com'>Hire Me </a>
@@ -64,6 +66,9 @@ const Home = () => {
           <span>kyakrnahaibro@gmail.com</span>
         </article>
        </aside>
+
+        </div>
+       
       </section>
       <section>
         <img src={me} alt="Paras" />

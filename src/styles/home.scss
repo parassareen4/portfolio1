@@ -7,6 +7,56 @@
         width: 100%;
 
         &:first-of-type{
+            padding-left:  $p;
+            
+            >div{
+                border-top: 1px solid $color6_2;
+                height: 100%;
+                padding: 6rem ;
+                >h1{
+                    font-family: $text1;
+                    font-size: 4rem;
+                    font-weight: 900;
+                    
+                }
+                .typewriterpara{
+                    margin: 20px 0;
+                    letter-spacing: 5px;
+                    height: 20px;
+                }
+                >div{
+                    display: flex;
+                    margin: 5rem 0;
+                    width: 70%;
+                    gap: 4rem;
+                    align-items: center;
+
+                    >a{
+                        &:first-of-type{
+                            background-color: $color3;
+                            color: $color1;
+                            padding: 1rem 2.5rem;
+                            transition: all 0.3s;
+                            &:hover{
+                                background-color: $color3_1;
+                            }
+
+                        }
+                        &:last-of-type{
+                            font: 600 1.2rem $text2;
+                            display: flex;
+                            align-items: center;
+                            
+                            color: $color5;
+                            
+                            transition: all 0.3s;
+                            &:hover{
+                               color: $color3;
+                            }
+                        }
+                    }
+                }
+            }
 
         }
 

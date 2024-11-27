@@ -14,7 +14,7 @@ const NavContent = () => {
             <h2>Paras.</h2>
             <div>
                 <a href='#home'>Home</a>
-                <a href='#words'>Word</a>
+                <a href='#work'>Work</a>
                 <a href='#timeline'>Expiriences</a>
                 <a href='#services'>Services</a>
                 <a href='#testimonials'>Testimonials</a>
