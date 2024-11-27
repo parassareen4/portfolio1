@@ -1,4 +1,38 @@
 #work{
     width: 100%;
     height: 100vh;
+    padding: 8rem $p;
+
+    >h2{
+        font:700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color6_1;
+        padding: 0.5rem;
+        margin: auto;
+    }
+    >section{
+        margin-top: 4rem;
+        width: 100%;
+        height: 100%;
+        background-color: $color5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >article{
+            width: 70%;
+            height: 25vmax;
+            
+        }
+
+        .workItem{
+            overflow-y: auto;
+            height: 25vmax;
+            width: 95%;
+            margin: auto;
+            background-color: $color4;
+            
+        }
+          
+    }
 }
