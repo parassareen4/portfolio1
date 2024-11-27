@@ -45,6 +45,24 @@
             z-index: 1;
 
         }
+
+        >div{
+            padding: 20px 30px;
+            background-color: $color5;
+            color:$color1;
+            border-radius: 6px;
+        }
+    }
+    
+    .leftTimeline{
+        left: 0%;
+    }
+    .rightTimeline{
+        left: 50%;
+        &::after{
+            left: -16px;
+            
+        }
     }
 
 }
