@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import  Typewriter  from 'typewriter-effect'
 import {BsArrowUpRight } from 'react-icons/bs'
+import me from '../assets/me2.png'
 const Home = () => {
 
   const animation = {
@@ -56,9 +57,17 @@ const Home = () => {
           </p>
           <span>Projects Completed</span>
         </article>
+        <article data-special>
+          <p>
+            Contact
+          </p>
+          <span>kyakrnahaibro@gmail.com</span>
+        </article>
        </aside>
       </section>
-      <section></section>
+      <section>
+        <img src={me} alt="Paras" />
+      </section>
     </div>
   )
 }
