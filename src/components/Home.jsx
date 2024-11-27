@@ -6,11 +6,18 @@ import me from '../assets/goti-removebg-preview.png'
 const Home = () => {
 
   const clientCount = useRef(null);
+  const projectCount = useRef(null);
 
   const animationClientsCount = ()=>{
     animate(0,25,{
       duration:1,
       onUpdate:(v)=>clientCount.current.textContent=v.toFixed()
+    })
+  }
+  const animationProjectCount =()=>{
+    animate(0,50,{
+      duration:1,
+      onUpdate:(v)=>projectCount.current.textContent=v.toFixed()
     })
   }
 
@@ -64,7 +71,7 @@ const Home = () => {
        <aside>
         <article>
           <p>
-            {/* +<motion.span ref={projectCount} whileInView={animationProjectCount}></motion.span> */}
+            +<motion.span ref={projectCount} whileInView={animationProjectCount}></motion.span>
           </p>
           <span>Projects Completed</span>
         </article>
