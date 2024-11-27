@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import {animate, motion} from 'framer-motion'
 import  Typewriter  from 'typewriter-effect'
 import {BsArrowUpRight, BsChevronDown } from 'react-icons/bs'
-import me from '../assets/me2.png'
+import me from '../assets/goti-removebg-preview.png'
 const Home = () => {
 
   const clientCount = useRef(null);
@@ -64,7 +64,7 @@ const Home = () => {
        <aside>
         <article>
           <p>
-            +<span>500</span>
+            {/* +<motion.span ref={projectCount} whileInView={animationProjectCount}></motion.span> */}
           </p>
           <span>Projects Completed</span>
         </article>
