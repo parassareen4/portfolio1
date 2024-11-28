@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillDiscord, AiFillGithub, AiFillTwitterSquare, AiOutlineArrowUp, AiOutlineHome } from 'react-icons/ai'
+import { AiFillDiscord, AiFillGithub, AiFillTwitterSquare, AiOutlineArrowUp} from 'react-icons/ai'
 
 function Footer() {
   return (
