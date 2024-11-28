@@ -14,9 +14,18 @@ function Work() {
                     showStatus={false}
                     showIndicators={false}
                     showThumbs={false}
-                    interval={2000}
+                    interval={1500}
                     autoPlay={true}
                     infiniteLoop={true} 
+                    swipeable={true}
+                    draggable={true}
+                    emulateTouch={true}
+                    emulateTouchDuration={1000}
+                    touchRatio={0.5}
+                    swipeScrollTolerance={100}
+                    dragScrollTolerance={100}
+                    stopOnHover={false}
+
                 >
 
                     {
