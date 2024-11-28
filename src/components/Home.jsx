@@ -55,7 +55,7 @@ const Home = () => {
         Hi, I'm <br></br>Paras Sareen 
        </motion.h1>
        <Typewriter options={{
-        strings: ["A Developer", "A Designer", "A Creator"],
+        strings: ["A Developer", "A Designer", "A Creator","A Maintainer", "A Learner"],
         autoStart: true,
         loop: true,
         wrapperClassName: "typewriterpara",
