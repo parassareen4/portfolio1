@@ -1,30 +1,41 @@
-import React from 'react'
+import React from "react";
 
-function Testimonials() {
+const Testimonial = () => {
   return (
-    <div id='testimonials'>
-        <h2>Testimonials</h2>
-        <section>
-            <TestimonialCard name={"Paras"} feedback={"The Chat app was really helpful and easy to use. I would recommend it to anyone."} image={"https://avatars.githubusercontent.com/u/10198778?v=4"}/>
-            <TestimonialCard name={"Paras"} feedback={"Great work with handling version control and deployment"} image={"https://avatars.githubusercontent.com/u/10198778?v=4"}/>
-            <TestimonialCard name={"Paras"} feedback={"Really efficient work and availability "} image={"https://avatars.githubusercontent.com/u/10198778?v=4"}/>
+    <div id="testimonial">
+      <h2>Testimonial</h2>
 
-           
-        </section>
+      <section>
+        <TestimonialCard
+          name={"Abhishek"}
+          feedback={"Your Teaching skills are so good."}
+        />
+
+        <TestimonialCard
+          name={"Ramzi"}
+          feedback={
+            "Wow what a portfolio, doesn't expected this to be on youtube!"
+          }
+        />
+
+        <TestimonialCard
+          name={"Sundar Pichai"}
+          feedback={"Amazing seems like you should the Google CEO"}
+        />
+      </section>
     </div>
-  )
-}
+  );
+};
 
-const TestimonialCard=({name,feedback,image})=>{
-    return(
-        <article>
-            <img src={image} alt="user"/>
-            
-                <h4>{name}</h4>
-                <p>{feedback}</p>
-            
-       </article>
-    )
-}
+const TestimonialCard = ({ name, feedback }) => (
+  <article>
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+      alt="User"
+    />
+    <h4>{name}</h4>
+    <p>{feedback}</p>
+  </article>
+);
 
-export default Testimonials
+export default Testimonial;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillDiscord, AiFillGithub, AiFillTwitterSquare, AiOutlineHome } from 'react-icons/ai'
+import { AiFillDiscord, AiFillGithub, AiFillTwitterSquare, AiOutlineArrowUp, AiOutlineHome } from 'react-icons/ai'
 
 function Footer() {
   return (
@@ -18,7 +18,7 @@ function Footer() {
             </article>
         </aside>
         <a href="#home">
-            <AiOutlineHome></AiOutlineHome>
+            <AiOutlineArrowUp/>
         </a>
     </footer>
   )
