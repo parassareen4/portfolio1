@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import {animate, motion} from 'framer-motion'
+import {animate, delay, motion} from 'framer-motion'
 import  Typewriter  from 'typewriter-effect'
 import {BsArrowUpRight, BsChevronDown } from 'react-icons/bs'
 import me from '../assets/goti-removebg-preview.png'
@@ -30,6 +30,7 @@ const Home = () => {
       whileInView: {
         x: 0,
         opacity: 1,
+        transition: { duration:0.3}
       },
     },
     button: {
@@ -48,7 +49,9 @@ const Home = () => {
     <div id="home">
       <section>
         <div>
-        <motion.h1 {...animation.h1}> 
+        <motion.h1 {...animation.h1
+          
+        }> 
         Hi, I'm <br></br>Paras Sareen 
        </motion.h1>
        <Typewriter options={{
