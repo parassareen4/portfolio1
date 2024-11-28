@@ -32,6 +32,21 @@
 
         width: 50%;
 
+        &:nth-child(odd){
+            text-align: right;
+
+            &::after{
+                animation: upandown 0.3s infinite ease-in alternate;
+            }
+        }
+
+        &:nth-child(even){
+            text-align: left;
+            &::after{
+                animation: upandown 0.5s infinite ease-in alternate;
+            }
+        }
+
         &::after{
             content: "";
             position: absolute;
