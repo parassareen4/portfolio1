@@ -20,7 +20,7 @@ const Testimonial = () => {
 
         <TestimonialCard
           name={"Sundar Pichai"}
-          feedback={"Amazing seems like you should the Google CEO"}
+          feedback={"Amazing seems like you should be the Google CEO"}
         />
       </section>
     </div>
