@@ -12,9 +12,9 @@ function Footer() {
         <aside>
             <h2>Social Media</h2>
             <article>
-                <a href=""><AiFillTwitterSquare/></a>
-                <a href=""><AiFillGithub/></a>
-                <a href=""><AiFillDiscord/></a>
+                <a href="https://x.com/ParasSareen4"><AiFillTwitterSquare/></a>
+                <a href="https://github.com/parassareen4"><AiFillGithub/></a>
+                <a href="https://github.com/parassareen4"><AiFillDiscord/></a>
             </article>
         </aside>
         <a href="#home">
