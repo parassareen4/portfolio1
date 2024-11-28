@@ -40,7 +40,8 @@ const Contact = () => {
       },
       whileInView: {
         x: 0,
-        opacity: 1
+        opacity: 1,
+       
       },
     },
 
